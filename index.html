@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/shecodestyle.css" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <title>SheCodes Assignment</title>
+  </head>
+  <body>
+    <form class="container" id="contain">
+      <input type="text" name="city" id="typeCity" value="Type a city" />
+      <div class="btn">
+        <button type="submit" class="search" id="search-btn">Search</button>
+        <button class="current">Current</button>
+      </form>
+      <h2 class="city_name" id="city"></h2>
+      <h2 id="city_condition"></h2>
+      <h3 id="text_2"></h3>
+      <span id="temp">°C <span id="humid"></span></span>
+    </div>
+    <script src="/src/shecodesweatherapi.js"></script>
+  </body>
+</html>
